@@ -4,12 +4,12 @@ Anomalisk framework is a open source software for Anomaly detection using Artifi
 ## Table of content
 | S. No. | Phase |
 |-----:|---------------|
-|     1|Understand the Problem|
-|     2|Collecting data|
-|     3|Data Analysis|
-|  4   |Anomaly Detection Technique|
-|     5|Training and Evaluate the Model|
-|     6|Deployment and Monitoring|
+|     1|The Problem|
+|     2|Data Collection|
+|     3|Data formatting|
+|  4   |ML Algorithm selection|
+|     5|Training|
+|     6|Deployment|
 
 ## Features
 | S. No. | Features |
@@ -41,6 +41,8 @@ Isolation Forest model training to the given Dataset.
 
 ## Deployment
 Once satisfied with the model's performance, deploy it into a production environment where it can automatically detect anomalies in new data.
+
+
 
 
 
