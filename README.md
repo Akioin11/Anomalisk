@@ -1,5 +1,8 @@
+![icon](https://i.ibb.co/HgZXm3M/animask.png)
+
+
 # Introduction
-Anomalisk framework is a open source software for Anomaly detection using Artificial Intelligence and Deep Learning.
+Animask framework is a open source software for Anomaly detection using Artificial Intelligence and Deep Learning.
 
 ## Table of content
 | S. No. | Phase |
@@ -45,30 +48,27 @@ Once satisfied with the model's performance, deploy it into a production environ
 
 
 # Conclusion
-1. Understanding Anomalies: Anomalies are data points that significantly differ from expected patterns or behaviors.
+1. Understanding Anomalies:
+   Anomalies are data points that significantly differ from expected patterns or behaviors.
 
-2. Approach:
+3. Approach:
+  Define Normal Behavior: Identify typical ranges, trends, or patterns in the data.
+  Choose Detection Technique: Select suitable methods like statistical analysis, machine learning, or rule-based systems.
+  Preprocess Data: Clean, normalize, and transform data for analysis.
+  Apply Detection Algorithm: Utilize chosen techniques to identify anomalies.
+  Evaluate Performance: Assess the accuracy of anomaly detection using appropriate metrics.
 
-Define Normal Behavior: Identify typical ranges, trends, or patterns in the data.
-Choose Detection Technique: Select suitable methods like statistical analysis, machine learning, or rule-based systems.
-Preprocess Data: Clean, normalize, and transform data for analysis.
-Apply Detection Algorithm: Utilize chosen techniques to identify anomalies.
-Evaluate Performance: Assess the accuracy of anomaly detection using appropriate metrics.
 3. Interpretation and Validation:
+  Investigate detected anomalies to understand causes and implications.
+  Validate anomalies to ensure they're genuine and not due to errors.
 
-Investigate detected anomalies to understand causes and implications.
-Validate anomalies to ensure they're genuine and not due to errors.
-4. Continuous Improvement:
+5. Continuous Improvement:
+  Anomaly detection is iterative; refine techniques based on feedback and validation.
 
-Anomaly detection is iterative; refine techniques based on feedback and validation.
-Benefits:
-
-Early identification of unusual data points.
-Enhances decision-making and risk management.
-Improves data quality and integrity.
-Conclusion:
-Anomaly detection helps in identifying and addressing unexpected patterns in data, leading to more informed decision-making and better outcomes.
+6. Benefits:
+  Early identification of unusual data points.
+  Enhances decision-making and risk management.
+  Improves data quality and integrity.
 
 
-
-
+## More on the algorithm.
