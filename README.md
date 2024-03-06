@@ -47,6 +47,21 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_sta
 ## Data formatting
 Extract relevant features from your dataset that can help the model distinguish between normal and anomalous data points. This step may require domain knowledge and experimentation.
 
+```
+disp = DecisionBoundaryDisplay.from_estimator(
+    clf,
+    X,
+    response_method="decision_function",
+    alpha=0.5,
+)
+disp.ax_.scatter(X[:, 0], X[:, 1], c=y, s=20, edgecolor="k")
+disp.ax_.set_title("Path length decision boundary \nof IsolationForest")
+plt.axis("square")
+plt.legend(handles=handles, labels=["outliers", "inliers"], title="true class")
+plt.colorbar(disp.ax_.collections[1])
+plt.show()
+```
+
 ## ML Algorithm selection
 Choose an appropriate machine learning model for anomaly detection. We will use "Isolation Forest".
 
